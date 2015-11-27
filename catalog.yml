@@ -1,3 +1,10 @@
+server:
+  port: 8180
+
+spring:
+    application:
+        name: catalogg
+
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
