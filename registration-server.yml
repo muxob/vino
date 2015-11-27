@@ -1,7 +1,5 @@
 # Configure this Discovery Server
 eureka:
-  instance:
-    hostname: localhost
   client:  # Not a client, don't register with yourself
     registerWithEureka: false
     fetchRegistry: false
