@@ -7,7 +7,7 @@ eureka:
 
 
 server:
-    port: 8081
+    port: 8081 // GitHub is configured for this port localhost:8081
 
 security:
   oauth2:
