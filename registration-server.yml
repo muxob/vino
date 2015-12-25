@@ -1,8 +1,0 @@
-# Configure this Discovery Server
-eureka:
-  client:  # Not a client, don't register with yourself
-    registerWithEureka: false
-    fetchRegistry: false
-
-server:
-  port: 8761  # HTTP (Tomcat) port 1111
